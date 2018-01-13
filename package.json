@@ -1,6 +1,6 @@
 {
   "name": "fetch-improve",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get html or text from url",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:zhouxiang1991/fetch-improve.git"
   },
   "keywords": [
     "node"
@@ -46,6 +46,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.36",
+    "chain-assert": "^1.4.1",
     "phantom": "^4.0.12"
   },
   "devDependencies": {

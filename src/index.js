@@ -1,6 +1,9 @@
 import phantom from 'phantom';
+import assert from 'chain-assert';
 
 export default async (url, type = 'html') => {
+  assert.url(url, 'url');
+  assert.string(type, 'type');
   const instance = await phantom.create();
   const page = await instance.createPage();
   await page.open(url);
